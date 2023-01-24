@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Roboto' sans-serif;
+    margin: 0;
+    padding: 0;
+    position:relative
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Domine", sans-serif;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.outer-navigation {
+    background-image: linear-gradient(  rgba (0, 0, 0, 0.3) , rgba (0, 0, 0, 0.2 ), 
+    height: 100vh;
+    background-size:cover ;
+    background-position:center;
+    padding: 0;
+    margin: 0   ;
+    padding-top: 20px;
+}
