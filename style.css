@@ -1,15 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Domine:wght@400;700&family=Roboto:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Domine:wght@400;700&family=Roboto:wght@400;700&display=swap");
 
-html{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
 
-body{
-    font-family: 'Roboto' sans-serif;
-    margin: 0;
-    padding: 0;
-    position:relative
+body {
+  font-family: "Roboto" sans-serif;
+  margin: 0;
+  padding: 0;
+  position: relative;
 }
 
 h1,
@@ -18,19 +18,104 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Domine", sans-serif;
+  font-family: "Domine", sans-serif;
 }
 
 .text-center {
-    text-align: center;
+  text-align: center;
 }
 
 .outer-navigation {
-    background-image: linear-gradient (rgba (0, 0, 0, 0.3) , rgba (0, 0, 0, 0.2 )), url("Img/office4.jpg");
-    height: 100vh;
-    background-size:cover ;
-    background-position:center;
-    padding: 0;
-    margin: 0;
-    padding-top: 20px;
+  background-image: url(../Img/of6.jpg);
+  height: auto;
+  background-size: contain;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-content {
+  max-width: 1500px;
+  margin: 0 auto;
+  position: relative;
+  height: 100vh;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation a:hover {
+  color: lightblue;
+}
+
+.right.navigation {
+  flex: 0.5;
+  text-align: right;
+  padding-right: 30px;
+}
+
+.right-navigation .login-link {
+  display: inline-block;
+  padding: 10px 30px;
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+}
+
+.left-navigation {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  flex: 0.5;
+}
+
+.left-navigation a {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/* Hero Styles */
+
+.main-title-container {
+  font-size: 2.2rem;
+  color: black;
+  max-width: 500px;
+  float: right;
+}
+
+.main-title-container button {
+  background-color: #867409;
+  color: white;
+  border: none;
+  font-size: 2 rem;
+  padding: 10px 20px;
+}
+
+@keyframes MoveUpDown {
+  0%,
+  100% {
+    bottom: 50px;
+  }
+  50% {
+    bottom: 70px;
+  }
+}
+
+.arrow-down-navigation {
+  animation: MoveUpDown 2.5s ease-in-out infinite;
+  color: black;
+  font-size: 2rem;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  cursor: pointer;
 }
