@@ -27,7 +27,7 @@ h6 {
 
 .outer-navigation {
   background-image: url(../Img/of6.jpg);
-  height: auto;   
+  height: auto;
   background-size: contain;
   padding: 0;
   margin: 0;
@@ -118,4 +118,51 @@ h6 {
   right: 0;
   text-align: center;
   cursor: pointer;
+}
+
+.arrow-down-navigation:hover {
+  color: lightblue;
+  cursor: pointer;
+}
+
+.sofa-row {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1500px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.sofa-row .img-container {
+  width: 50px;
+
+}
+
+
+.sofa-row .img-container img {
+  width: 1000%;
+  height: 300px;
+  object-fit: cover;
+}
+
+
+.sofa-row .img-container1 img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+
+
+.sofa-row .text-container {
+  width: 50%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sofa-row .text-container h2 {
+  font-size: 30px;
 }
