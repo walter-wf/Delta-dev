@@ -1,0 +1,1 @@
+ScrollReveal().reveal('.sofa-row');

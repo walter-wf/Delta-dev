@@ -125,6 +125,7 @@ h6 {
   cursor: pointer;
 }
 
+/* sofa */
 .sofa-row {
   display: flex;
   justify-content: space-between;
@@ -135,9 +136,7 @@ h6 {
 
 .sofa-row .img-container {
   width: 50px;
-
 }
-
 
 .sofa-row .img-container img {
   width: 1000%;
@@ -145,14 +144,11 @@ h6 {
   object-fit: cover;
 }
 
-
 .sofa-row .img-container1 img {
   width: 100%;
   height: 300px;
   object-fit: cover;
 }
-
-
 
 .sofa-row .text-container {
   width: 50%;
@@ -165,4 +161,90 @@ h6 {
 
 .sofa-row .text-container h2 {
   font-size: 30px;
+}
+
+/* Our mission */
+
+.our-mission{
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.5)), url(../Img/office4.jpg);
+  background-attachment: fixed;
+  background-position: center 10px;
+  min-height: 500px;
+  color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 40px;
+}
+
+.our-mission h2{
+  font-size: 2rem;
+}
+
+.our-mission p{
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.our-mission button{
+  border: 1px solid white;
+  padding: 10px 30px;
+  background-color: transparent;
+  color: white;
+
+}
+
+.our-mission button:hover{
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+
+/* Form */
+
+.contact-form{
+  padding: 30px;
+  background-color: lightblue;
+  text-align: center;
+}
+
+.contact-form form{
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact-form input{
+  width: 100%;
+  height: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.contact-form label{
+  display: block;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.contact-form textarea{
+  width: 100%;
+}
+
+.contact-form button{
+  padding: 10px 30px;
+  cursor: pointer;
+}
+
+/* Footer */
+
+footer{
+  background-color: black;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: white;
+  text-align: center;
 }
