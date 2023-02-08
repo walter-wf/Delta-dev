@@ -248,3 +248,86 @@ footer{
   color: white;
   text-align: center;
 }
+
+
+/* Login page */
+
+/*.login-navigation {
+  background-color: black;
+}
+*/
+.login-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.left-login-container {
+  height: calc(100vh - 50px);
+  flex: 0.5;
+}
+
+/*
+.right-login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex: 0.5;
+}
+
+
+.right-login-container form {
+  margin: 0 auto;
+}
+
+.right-login-container input {
+  width: min(100% - 500px);
+  padding: 10px;
+  margin-top: 10px;
+  display: block;
+  font-size: 15px;
+}
+
+.right-login-container button {
+  padding: 10px 20px;
+  background: transparent;
+  cursor: pointer;
+  border: 1px solid black;
+}
+
+.right-login-container button:hover{
+  background-color: black;
+  color: white;
+}
+*/
+
+
+/* About us  page */
+
+.cards-container{
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.card{
+  width: 280px;
+  text-align: center;
+  padding-bottom: 10px;
+  margin: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+.card:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+
+}
